@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainpage{
+    /* border: 1px solid black; */
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* align-items: c; */
+}
+.mainpageleft{
+    /* border: 1px solid black; */
+    width: 45%;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.photo{
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 9px;
+    width: 440px;
+    height: 440px;
+}
+.mainpageright{
+    /* border: 1px solid black; */
+    width: 45%;
+}
+.mainpagerighttitle {
+    font-family: cursive;
+}
+.mainpagerightvisit a{
+    text-decoration: none;
+    color: rgb(180, 180, 180);
+    
+}
+.mainpagerightvisit a:hover{
+    color: rgb(34, 32, 32);
+}
+.mainpagerightvisit{
+    border-bottom: 1px solid rgb(187, 187, 187);
+    margin-top: 15px;
+    padding-bottom: 25px;
+    /* padding-left: -40px; */
+}
+.realprice{
+    display: block;
+    font-weight: 500;
+    font-size: 1.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 15px;
+}
+.originalPrice{
+    /* display: inline; */
+    /* position: absolute; */
+    text-decoration: line-through;
+    
+}
+.discount{
+    margin-left: 70px;
+    font-weight: bold;
+}
+.mainpagerightprice{
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(187, 187, 187);
+    /* border-bottom: 1px s; */
+}
+.available{
+    margin-left: 250px;
+    /* font-weight: bold; */
+    font-size: 0.9rem;
+    font-style: italic;
+}
+.tracker{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+    gap: 0.2px; /* Adjust the gap between items */
+
+}
+.trkbtn{
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.trackButton{
+    padding: 12px;
+    padding-left: 180px;
+    padding-right: 180px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    border: none;
+    outline: none;
+    margin-left: 12px;
+    border-radius: 14px;
+    transition: 0.2s;
+
+}
+.trackButton:hover{
+    color: wheat;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+@media (max-width: 970px) {
+    .mainpage {
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
+        gap: 18px;
+    }
+    .available{
+        margin-left: 0px;
+        /* font-weight: bold; */
+        font-size: 0.9rem;
+        font-style: italic;
+    }
+    .mainpageleft{
+        margin-left: 0px;
+    }
+    .mainpageleft img{
+        width: 290px;
+        height: 290px;
+    }
+    .tracker{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-left: 0px;
+        flex-wrap: wrap;
+    }
+}

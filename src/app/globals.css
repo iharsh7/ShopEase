@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
@@ -103,5 +103,84 @@ a {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+} */
+.container1{
+  /* border: 1px solid black; */
+  /* padding-left: 190px; */
+  /* padding-right: 40px; */
+  width: 100%;
+  padding-top: 49px;
+  padding-bottom: 49px;
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+
+  
+}
+.righty{
+  /* border: 2px solid black; */
+  width: 27%;
+}
+.lefty{
+  /* border: 2px solid black; */
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 130px;
+  /* align-items: center; */
+  justify-content: center;
+
+}
+.container3{
+  /* border: 1px solid black; */
+  /* display: flex; */
+
+  padding-left: 100px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.container2{
+  /* border: 1px solid black; */
+  padding: 25px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+.container1 h1{
+  width: 70%;
+
+}
+.container1 p{
+  font-style: italic;
+}
+.headingcont3{
+  /* border: 2px solid black; */
+  margin-top: 18px;
+  font-family: cursive;
+}
+.trendingproduct{
+  /* border: 2px solid black; */
+  margin-top: 45px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 11px;
+  flex-wrap: wrap;
+}
+@media (max-width:900px) {
+  .container1{
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .lefty{
+    width: 98%;
+    /* border: 2px solid black; */
+    margin: auto;
+  }
+  .righty{
+    width: 50%;
   }
 }

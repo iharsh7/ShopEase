@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    padding-left: 100px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.left{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+.s1{
+    color: red;
+    font-weight: bold;
+    margin-right: -8px;
+    
+}
+.s2{
+    color: rgb(245, 245, 10);
+    font-weight: bold;
+}
+.headingcont3{
+    /* border: 2px solid black; */
+    width: 100%;
+}
